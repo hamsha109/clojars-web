@@ -1,0 +1,21 @@
+From: Hamza Shahid <hamsha57815@gmail.com>
+Date: Wednesday, 26 September 2018
+Subject: VULNERABILITY REPORT (1) [Cross Domain Referrer Leakage] Password Reset Token Leaking to Third party Sites
+
+
+Hi team,
+
+i am a security researcher and i founded this vulnerability in your website.
+
+I have found that you are leaking via the referrer the reset password link. See the proof of concept that the site is indeed leaking the reset password link via the referrer.
+
+Thats when someone loads the reset password link and decided to click on external links.
+
+Impact:
+
+Password Reset Token will be leaked by the Server to that third party site and that token can be used by third parties to reset the password and take over the account.
+
+Thanks
+
+Regards:
+Hamza Shahid
